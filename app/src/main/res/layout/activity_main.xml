@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="775dp"
+        android:layout_height="186dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/coaxial_cable_length_measure"
+            android:textColor="#00b9ad"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="88dp"
+            android:text="@string/select_the_cable_type_and_press_start"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/cablestring"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/cablestring2"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="254dp"
+        android:layout_height="375dp"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="false"
+        android:focusableInTouchMode="false">
+
+        <ImageView
+            android:id="@+id/cable_image"
+            android:layout_width="30dp"
+            android:layout_height="85dp"
+            android:layout_marginBottom="28dp"
+            android:layout_marginLeft="129dp"
+            android:background="@drawable/cable_1"
+            app:layout_constraintBottom_toTopOf="@+id/monitor_image"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <ImageView
+            android:id="@+id/monitor_image"
+            android:layout_width="214dp"
+            android:layout_height="137dp"
+            android:layout_marginBottom="45dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="244dp"
+            android:background="@drawable/monitor_anim"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/config"
+        android:layout_width="774dp"
+        android:layout_height="184dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Spinner
+            android:id="@+id/cable_mf"
+            android:layout_width="450dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/spinner_main_selector"
+            android:nextFocusDown="@id/cable_type"
+            android:nextFocusUp="@id/start_button"
+            android:nextFocusLeft="@id/start_button"
+            android:nextFocusRight="@id/start_button"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/mf_title"
+            android:layout_width="230dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/manufacture"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="28sp"
+            android:textStyle="bold"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Spinner
+            android:id="@+id/cable_type"
+            android:layout_width="450dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/spinner_main_selector"
+            android:nextFocusDown="@id/start_button"
+            android:nextFocusUp="@id/cable_mf"
+            android:nextFocusLeft="@id/start_button"
+            android:nextFocusRight="@id/start_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cable_mf" />
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="230dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/cable_type"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mf_title" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:layout_marginTop="376dp"
+
+        android:background="#232323"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/cable_length_value"
+            android:layout_width="450dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_value"
+            android:gravity="center"
+            android:text="@string/none"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cable_status_value" />
+
+        <TextView
+            android:id="@+id/cable_status_value"
+            android:layout_width="450dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_value"
+            android:gravity="center"
+            android:text="@string/none"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cable_length"
+            android:layout_width="230dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="16dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+
+            android:text="@string/cable_length"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cable_status" />
+
+        <TextView
+            android:id="@+id/cable_status"
+            android:layout_width="230dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/cable_status"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="216dp"
+            android:layout_height="149dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_button_selector"
+            android:text="@string/start"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="30sp"
+            android:nextFocusDown="@id/cable_mf"
+            android:nextFocusUp="@id/cable_type"
+            android:nextFocusLeft="@id/cable_type"
+            android:nextFocusRight="@id/cable_mf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cable_length_value"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

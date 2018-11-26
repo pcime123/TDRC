@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TDR Coaxial</string>
+    <string name="coaxial_cable_length_measure">同軸ケーブルの長さ測定</string>
+    <string name="start">検査</string>
+    <string name="select_the_cable_type_and_press_start">ケーブルの種類を選択した後、「検査」ボタンを押してください。</string>
+    <string name="cable_type">ケーブルの種類</string>
+    <string name="none">無し</string>
+    <string name="cable_length">ケーブルの長さ</string>
+    <string name="cable_status">ケーブルの状態</string>
+    <string name="please_wait">少々お待ちください...</string>
+    <string name="cable_open">OPEN</string>
+    <string name="cable_short">SHORT</string>
+    <string name="matching_or_not">測定不可</string>
+    <string name="cablestring">※測定可能なケーブルの長さ(金剛5C-FB基準): 10M~1.2KM</string>
+    <string name="manufacture">メーカー</string>
+    <string name="cablestring2">※測定不可: ケーブルがマッチングされている、接続されていません、ケーブルの長さが短すぎるか長すぎる。</string>
+</resources>

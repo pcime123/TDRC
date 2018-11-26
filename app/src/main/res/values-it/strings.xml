@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TDR Coaxial</string>
+    <string name="coaxial_cable_length_measure">Misura lunghezza cavo coassiale</string>
+    <string name="start">Dai un\'occhiata</string>
+    <string name="select_the_cable_type_and_press_start">Selezionare il tipo di cavo e premere Verifica.</string>
+    <string name="cable_type">Tipo di cavo</string>
+    <string name="none">Nessuna</string>
+    <string name="cable_length">Lunghezza del cavo</string>
+    <string name="cable_status">Stato del cavo</string>
+    <string name="please_wait">Attendere prego..</string>
+    <string name="cable_open">OPEN</string>
+    <string name="cable_short">SHORT</string>
+    <string name="matching_or_not">Non misurabile</string>
+    <string name="cablestring">Lunghezza minima misurabile del cavo: 10M</string>
+    <string name="manufacture">Produzione</string>
+    <string name="cablestring2">※ Not measurable: Cable is matched, not connected, length too short or long</string>
+</resources>

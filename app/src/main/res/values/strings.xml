@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">TDR Coaxial</string>
+    <string name="coaxial_cable_length_measure">Coaxial Cable Length Measure</string>
+    <string name="start">Start</string>
+    <string name="select_the_cable_type_and_press_start">Please select the cable type after selecting the manufacturer.</string>
+    <string name="cable_type">Cable Type</string>
+    <string name="none">None</string>
+    <string name="cable_length">Cable Length</string>
+    <string name="cable_status">Cable Status</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="cable_open">Cable Open</string>
+    <string name="cable_short">Cable Short</string>
+    <string name="matching_or_not">Matching or not connecting</string>
+    <string name="cablestring">Minimum measurable cable length: 10M</string>
+    <string name="manufacture">Manufacture</string>
+    <string name="cablestring2">cable</string>
+
+    <string-array name="menufacture" translatable="false">
+        <item> KUMKANG Cable </item>
+        <item> LS Cable </item>
+        <item> Belden </item>
+        <item> CANARE </item>
+        <item> Times Microwave System </item>
+        <item> Davis Cable </item>
+        <item> ETC Cable </item>
+    </string-array>
+
+    <string-array name="kumkag" translatable="false">
+        <item> 5C-FBT (KUMKANG) </item>
+        <item> 5C-HFBT (KUMKANG) </item>
+        <item> 7C-FBT (KUMKANG) </item>
+        <item> 7C-HFBT (KUMKANG) </item>
+        <item> 10C-HFBT (KUMKANG) </item>
+        <item> RG-6/U/T (KUMKANG) </item>
+    </string-array>
+
+    <string-array name="ls" translatable="false">
+        <item> 3C-2V ECX (LS Cable)</item>
+        <item> 5C-2V ECX (LS Cable)</item>
+        <item> 7C-2V ECX (LS Cable)</item>
+        <item> 10C-2V ECX (LS Cable)</item>
+        <item> 5C-HFBT (LS Cable)</item>
+        <item> 7C-HFBT (LS Cable)</item>
+        <item> 10C-HFBT (LS Cable)</item>
+    </string-array>
+
+    <string-array name="belden" translatable="false">
+        <item> RG-6/U PE (Belden 8215) </item>
+        <item> RG-6/U Foam (Belden 9290) </item>
+        <item> RG-8/U PE (Belden 8237) </item>
+        <item> RG-8/U Foam (Belden 8214) </item>
+        <item> RG-8/U (Belden 9913) </item>
+        <item> RG-8X (Belden 9258) </item>
+        <item> RG-11/U Foam HPDE (Belden 9292) </item>
+        <item> RG-58/U PE (Belden 9201) </item>
+        <item> RG-58A/U Foam (Belden 8219) </item>
+        <item> RG-59A/U Foam (Belden 8241) </item>
+        <item> RG-59A/U Foam (Belden 8241F) </item>
+        <item> RG-174 PE (Belden 8216) </item>
+        <item> RG-174 Foam (Belden 7805R) </item>
+        <item> RG-213/U (Belden 8267) </item>
+    </string-array>
+
+    <string-array name="canare" translatable="false">
+        <item> L-2.5CFB (CANARE) </item>
+        <item> L-3CFB (CANARE) </item>
+        <item> L-4CFB (CANARE) </item>
+        <item> L-5CFB (CANARE) </item>
+        <item> L-7CFB (CANARE) </item>
+        <item> LV-77S (CANARE) </item>
+        <item> LV-61S (CANARE) </item>
+        <item> V3-3C (CANARE) </item>
+        <item> V4-3C (CANARE) </item>
+        <item> V5-3C (CANARE) </item>
+        <item> V3-5C (CANARE) </item>
+        <item> V4-3C (CANARE) </item>
+        <item> V4-5C (CANARE) </item>
+        <item> V5-5C (CANARE) </item>
+        <item> V3-3CFB (CANARE) </item>
+        <item> V4-3CFB (CANARE) </item>
+        <item> V5-3CFB (CANARE) </item>
+        <item> V3-4CFB (CANARE) </item>
+        <item> V4-4CFB (CANARE) </item>
+        <item> V5-4CFB (CANARE) </item>
+        <item> V3-5CFB (CANARE) </item>
+        <item> V4-5CFB (CANARE) </item>
+        <item> V5-5CFB (CANARE) </item>
+        <item> V3-1.5C (CANARE) </item>
+        <item> V4-1.5C (CANARE) </item>
+        <item> V5-1.5C (CANARE) </item>
+    </string-array>
+
+    <string-array name="time" translatable="false">
+        <item> LMR-195 </item>
+        <item> LMR-240 </item>
+        <item> LMR-240UF </item>
+        <item> LMR-400 </item>
+        <item> LMR-400UF </item>
+    </string-array>
+
+    <string-array name="davis" translatable="false">
+        <item> Davis BurryFlex </item>
+    </string-array>
+
+    <string-array name="etc" translatable="false">
+        <item> RG-6U (Foam) </item>
+        <item> RG-8U (Poly) </item>
+        <item> RG-8U (Foam) </item>
+        <item> RG-8 </item>
+        <item> RG-8X </item>
+        <item> RG-9U </item>
+        <item> RG-11 </item>
+        <item> RG-11U (Poly) </item>
+        <item> RG-11U (Foam) </item>
+        <item> RG-58 (Poly) </item>
+        <item> RG-58 (Foam) </item>
+        <item> RG-58 </item>
+        <item> RG-59 (Poly) </item>
+        <item> RG-59 (Foam) </item>
+        <item> RG-62U (Air&amp;Poly) </item>
+        <item> RG-71U (Air&amp;Poly) </item>
+        <item> RG-122U (Poly) </item>
+        <item> RG-141U (Teflon) </item>
+        <item> RG-142U (Teflon) </item>
+        <item> RG-174U (Poly) </item>
+        <item> RG-178U (Teflon) </item>
+        <item> RG-179U (Teflon) </item>
+        <item> RG-180U (Teflon) </item>
+        <item> RG-187U (Teflon) </item>
+        <item> RG-188U (Teflon) </item>
+        <item> RG-196U (Teflon) </item>
+        <item> RG-213U (Poly) </item>
+        <item> RG-214U (Poly) </item>
+        <item> RG-217U (Poly) </item>
+        <item> RG-218U (Poly) </item>
+        <item> RG-223U  </item>
+        <item> RG-303U (Teflon) </item>
+        <item> RG-316U (Teflon) </item>
+        <item> RG-400 (Teflon) </item>
+    </string-array>
+</resources>
