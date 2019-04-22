@@ -12,7 +12,10 @@
     <string name="cable_open">OPEN</string>
     <string name="cable_short">SHORT</string>
     <string name="matching_or_not">測定不可</string>
-    <string name="cablestring">※測定可能なケーブルの長さ(金剛5C-FB基準): 10M~1.2KM</string>
+    <string name="not_measured">測定しない。</string>
+
+    <string name="cablestring">※測定可能なケーブルの長さ(金剛5C-FB基準): 10m ~ 1km</string>
     <string name="manufacture">メーカー</string>
     <string name="cablestring2">※測定不可: ケーブルがマッチングされている、接続されていません、ケーブルの長さが短すぎるか長すぎる。</string>
+    <string name="cable_loop">ループ抵抗</string>
 </resources>

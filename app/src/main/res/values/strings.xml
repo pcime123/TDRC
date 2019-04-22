@@ -1,19 +1,22 @@
 <resources>
     <string name="app_name">TDR Coaxial</string>
     <string name="coaxial_cable_length_measure">Coaxial Cable Length Measure</string>
-    <string name="start">Start</string>
-    <string name="select_the_cable_type_and_press_start">Please select the cable type after selecting the manufacturer.</string>
+    <string name="start">Check</string>
+    <string name="select_the_cable_type_and_press_start">Select the cable type and press Check.</string>
     <string name="cable_type">Cable Type</string>
     <string name="none">None</string>
     <string name="cable_length">Cable Length</string>
     <string name="cable_status">Cable Status</string>
     <string name="please_wait">Please wait..</string>
-    <string name="cable_open">Cable Open</string>
-    <string name="cable_short">Cable Short</string>
-    <string name="matching_or_not">Matching or not connecting</string>
-    <string name="cablestring">Minimum measurable cable length: 10M</string>
+    <string name="cable_open">OPEN</string>
+    <string name="cable_short">SHORT</string>
+    <string name="matching_or_not">Unmeasurable</string>
+    <string name="not_measured">Not measured</string>
+
+    <string name="cablestring">Measurable cable length : 10m ~ 1km</string>
     <string name="manufacture">Manufacture</string>
-    <string name="cablestring2">cable</string>
+    <string name="cablestring2">"※ Unmeasurable : cable matching, not connected, length too long or short "</string>
+    <string name="cable_loop">Loop Resistance</string>
 
     <string-array name="menufacture" translatable="false">
         <item> KUMKANG Cable </item>
@@ -22,6 +25,7 @@
         <item> CANARE </item>
         <item> Times Microwave System </item>
         <item> Davis Cable </item>
+        <item> UTP Cable - TG02</item>
         <item> ETC Cable </item>
     </string-array>
 
@@ -102,7 +106,15 @@
         <item> Davis BurryFlex </item>
     </string-array>
 
+    <string-array name="utp" translatable="false">
+        <item> Cat-7 Twisted Pair</item>
+        <item> Cat-6A Twisted Pair</item>
+        <item> Cat-5e Twisted Pair</item>
+        <item> Cat-3 Twisted Pair</item>
+    </string-array>
+
     <string-array name="etc" translatable="false">
+        <item> ETC </item>
         <item> RG-6U (Foam) </item>
         <item> RG-8U (Poly) </item>
         <item> RG-8U (Foam) </item>
@@ -114,7 +126,7 @@
         <item> RG-11U (Foam) </item>
         <item> RG-58 (Poly) </item>
         <item> RG-58 (Foam) </item>
-        <item> RG-58 </item>
+        <item> RG-58 A/U</item>
         <item> RG-59 (Poly) </item>
         <item> RG-59 (Foam) </item>
         <item> RG-62U (Air&amp;Poly) </item>

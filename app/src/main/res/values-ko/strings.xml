@@ -12,7 +12,10 @@
     <string name="cable_open">OPEN</string>
     <string name="cable_short">SHORT</string>
     <string name="matching_or_not">측정 불가</string>
-    <string name="cablestring">※ 측정 가능한 케이블 길이 (금강 5C-HFBT 기준) : 10M ~ 1.2KM</string>
+    <string name="not_measured">측정 안됨</string>
+
+    <string name="cablestring">※ 측정 가능한 케이블 길이 (금강 5C-HFBT 기준) : 10m ~ 1km</string>
     <string name="manufacture">제조사</string>
     <string name="cablestring2">※ 측정 불가 : 케이블이 매칭되어 있음, 연결되지 않음, 길이가 너무 짧거나 긺</string>
+    <string name="cable_loop">루프 저항</string>
 </resources>

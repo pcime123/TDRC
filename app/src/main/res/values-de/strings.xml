@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TDR Coaxial</string>
-    <string name="coaxial_cable_length_measure">Koaxialkabel Länge Messen</string>
-    <string name="start">Prüfen</string>
-    <string name="select_the_cable_type_and_press_start">Wählen Sie den Kabeltyp und drücken Sie Prüfen.</string>
-    <string name="cable_type">Kabelart</string>
-    <string name="none">Keiner</string>
-    <string name="cable_length">Kabellänge</string>
-    <string name="cable_status">Kabelstatus</string>
-    <string name="please_wait">Warten Sie mal..</string>
+    <string name="coaxial_cable_length_measure">Coaxial Cable Length Measure</string>
+    <string name="start">Check</string>
+    <string name="select_the_cable_type_and_press_start">Select the cable type and press Check.</string>
+    <string name="cable_type">Cable Type</string>
+    <string name="none">None</string>
+    <string name="cable_length">Cable Length</string>
+    <string name="cable_status">Cable Status</string>
+    <string name="please_wait">Please wait..</string>
     <string name="cable_open">OPEN</string>
     <string name="cable_short">SHORT</string>
-    <string name="matching_or_not">Nicht messbar</string>
-    <string name="cablestring">Minimale messbare Kabellänge: 10M</string>
-    <string name="manufacture">Herstellung</string>
-    <string name="cablestring2">※ Not measurable: Cable is matched, not connected, length too short or long</string>
+    <string name="matching_or_not">Unmeasurable</string>
+    <string name="not_measured">Not measured</string>
+
+    <string name="cablestring">Measurable cable length : 10m ~ 1km</string>
+    <string name="manufacture">Manufacture</string>
+    <string name="cablestring2">"※ Unmeasurable : cable matching, not connected, length too long or short "</string>
+    <string name="cable_loop">Loop Resistance</string>
 </resources>

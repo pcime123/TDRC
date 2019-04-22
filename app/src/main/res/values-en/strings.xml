@@ -12,7 +12,10 @@
     <string name="cable_open">OPEN</string>
     <string name="cable_short">SHORT</string>
     <string name="matching_or_not">Unmeasurable</string>
-    <string name="cablestring">Minimum measurable cable length: 10M</string>
+    <string name="not_measured">Not measured</string>
+
+    <string name="cablestring">Measurable cable length : 10m ~ 1km</string>
     <string name="manufacture">Manufacture</string>
-    <string name="cablestring2">※ Not measurable: Cable is matched, not connected, length too short or long</string>
+    <string name="cablestring2">"※ Unmeasurable : cable matching, not connected, length too long or short "</string>
+    <string name="cable_loop">Loop Resistance</string>
 </resources>
